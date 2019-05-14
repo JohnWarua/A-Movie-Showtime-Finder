@@ -1,0 +1,9 @@
+h1{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  background-image: url("images/Pand.png");
+  background-size: cover;
+  height: 1100px;
+  width: 1300px;
+  color: purple;
+}
