@@ -18,3 +18,11 @@ padding-left: 10%;
 a:hover{
   background-color: blue;
 }
+
+p{
+  text-align: center;
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+  font-family: sans-serif;
+}
