@@ -55,22 +55,69 @@ p{
   padding-top: 20%;
 }
 
+.glass img{
+  opacity: 0.2;
+}
+
+.glass img:hover{
+  opacity: 1;
+}
+
 .tomb{
   padding-top: 30%;
+}
+.tomb img{
+  opacity: 0.2;
+}
+
+.tomb img:hover{
+  opacity: 1;
 }
 
 .lucy{
   padding-top: 30%;
 }
 
+.lucy img{
+  opacity: 0.2;
+}
+
+.lucy img:hover{
+  opacity: 1;
+}
+
 .klaus{
   padding-top: 20%;
+}
+
+.klaus img{
+  opacity: 0.2;
+}
+
+.klaus img:hover{
+  opacity: 1;
 }
 
 .nemo{
   padding-top: 30%;
 }
 
+.nemo img{
+  opacity: 0.2;
+}
+
+.nemo img:hover{
+  opacity: 1;
+}
+
 .dash{
   padding-top: 10%;
+}
+
+.dash img{
+  opacity: 0.2;
+}
+
+.dash img:hover{
+  opacity: 1;
 }
