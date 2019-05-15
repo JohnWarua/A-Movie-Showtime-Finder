@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
+  <title>Movie showtime Finder</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -17,8 +17,59 @@
 </head>
 
 <body>
+<div class="nav">
+    <a class="nav-logo" href="" title="">
+        <img class="movie" id="mov" src="image/movie.jpeg" alt="" /> 
+        </a>
+      <a href=""><p class="E"><span id="A"><b>A MOVIE</b></span><br>
+          showtime finder</p></a>
+    <ul class="sticky">
+        <li><a class="lis" id="list" href="">Home</a></li>
+        <li><a class="lis" href="">Movies</a></li>
+        <li><a class="lis" href="">Series</a></li>
+        <li><a class="lis" href="">Animations</a></li>
+        <li><a  href="" class="" data-toggle="modal" data-target="#modalSubscriptionForm">
+             <button class="sear">Subscribe</button></a></li>
+       <li><a href="#modalSearch"data-toggle="modal" data-target="#modalLoginForm"><i class="fa fa-search"></i></a></li>
+        </ul>          
+    
 
-  
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <a class="footer-logo" href="" title="">
+                    <img class="movie" src="image/movie.jpeg" alt="" /> 
+                    <p><span id="A"><b>A MOVIE</b></span><br>
+                    showtime finder</p>
+                    </a>
+              </div>
+              <div class="col-sm" id="t" >
+                    <a href=""><span class="B" >About us</span></a>
+                    <br>
+                    <a href=""><span class="B">Contact Us</span></a>
+
+              </div>
+              <div class="col-sm">
+                <h3>Get an email from us </h3>
+                <form>
+                    <div class="grid">
+                      <input type="text" class="text" name="" value="">
+                      <input type="text" class="text" name="" value="">
+            </div>
+                    <button type="submit" id="submit" placeholder="subscribe">
+                        Subscribe
+                    </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        
+          <div id="footer-copyright" class="col-sm-12">
+                <span>AMovieShowtimeFinder</span> &copy; 2019 </div>
+                </div>
+
+        </footer>
   <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
   <!-- Bootstrap tooltips -->
   <script type="text/javascript" src="js/popper.min.js"></script>
@@ -28,5 +79,56 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <script type="text/javascript" src="scripts.js"></script>
 </body>
+<div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Subscribe</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text" id="form3" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form3">Your name</label>
+        </div>
+
+        <div class="md-form mb-4">
+          <i class="fas fa-envelope prefix grey-text"></i>
+          <input type="email" id="form2" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form2">Your email</label>
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-indigo">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input id="ser">
+          <button class="btn btn-default">Search</button>
+        </div>
+      </div>
+      
+       
+    
+    </div>
+  </div>
+</div>
 
 </html>
