@@ -26,3 +26,51 @@ p{
   font-weight: bold;
   font-family: sans-serif;
 }
+
+.hide1{
+  display: none;
+}
+
+.hide2{
+  display: none;
+}
+
+.hide3{
+  display: none;
+}
+
+.hide4{
+  display: none;
+}
+
+.hide5{
+  display: none;
+}
+
+.hide6{
+  display: none;
+}
+
+.glass{
+  padding-top: 20%;
+}
+
+.tomb{
+  padding-top: 30%;
+}
+
+.lucy{
+  padding-top: 30%;
+}
+
+.klaus{
+  padding-top: 20%;
+}
+
+.nemo{
+  padding-top: 30%;
+}
+
+.dash{
+  padding-top: 10%;
+}
