@@ -45,3 +45,6 @@ h1, h3{
   border-radius: 15px;
   box-shadow: 3px 3px 11px #000000;
 }
+li{
+  font-family: 'Rock Salt', cursive;
+}
