@@ -9,11 +9,14 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .head{
 text-align: center;
 background-color: rgba(100, 100, 50, 0.5);
 width: 100%;
+color: pink;
 }
+
 .gif{
   margin: 10px;
   background-position: center;
@@ -21,15 +24,48 @@ width: 100%;
   background-color: white;
   border-radius: 5px;
   box-shadow: 3px 3px 3px 11px #000000;
-  float: right;
+  margin-left: 1100px;
 }
+
 form{
   float: right;
   margin-top: -10px;
 }
+
 .topnav{
   text-align: center;
 }
+
 .lion{
   color: skyblue;
+}
+.lionp{
+  display: none;
+}
+.videolion{
+  display: none;
+}
+.spiderp{
+  display: none;
+}
+.videospider{
+  display:  none;
+}
+.trainp{
+  display: none;
+}
+.videotrain{
+  display: none;
+}
+.smallfootp{
+  display: none;
+}
+.videofoot{
+  display: none;
+}
+.spiesp{
+  display: none;
+}
+.videospies{
+  display: none;
 }
