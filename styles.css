@@ -1,7 +1,466 @@
-h1{
-  text-align: center;
-  font-family: 'Cinzel', serif;
-  background-color:rgba(100, 100, 50, 0.5);
+body{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO3CHXuQfFZp0LKwHCwS7YIhyajvdqmz9NPTsoakREJI4XnqMlBQ");
   background-repeat: no-repeat;
+  background-size: cover;
+}
+.head{
+  width: 100%;
+}
+.none{
+  background-color:black;
+  width: 100%;
+  padding: 30px;
+}
+h1{
+  font-family: 'Cinzel', serif;
   color: green;
+  text-align: center;
+}
+nav{
+  display: inline-flex;
+  font-size: 1.3em;
+}
+a{
+  padding: 10px;
+  font-size: 1.2em;
+  color: yellow;
+}
+.drop{
+  margin-top: 50px;
+}
+.down{
+  display: none;
+  background-color:rgba(255, 100, 0, 0.5);
+  border-radius: 0px 9px 9px 9px;
+}
+.column{
+  padding: 10px;
+}
+.btn{
+  color: blue;
+  font-size: 1.2em;
+}
+.three{
+  position: relative;
+  width: 20%;
+  padding-left: 50%;
+}
+.three img{
+  box-shadow: 3px 2px 1px blue;
+  border-radius: 6px 6px 6px 6px;
+  display: block;
+}
+.reason{
+position: absolute;
+ bottom: 0;
+ background: rgba(10, 50, 10,0.1);
+ color: #f1f1f1;
+ transition: .5s ease;
+ opacity:0;
+ width: 75%;
+ color: yellow;
+ font-size: 20px;
+ text-align: center;
+ padding: 5px;
+ border-radius: 5px 5px 5px 5px;
+}
+.three:hover .reason{
+  opacity: 1;
+}
+.crown{
+  position: relative;
+  width: 20%;
+  padding-left: 40%;
+}
+.crown img{
+  box-shadow: 4px 4px 4px blue;
+  border-radius: 6px 6px 6px 6px;
+  margin-top: 5%;
+}
+.the{
+  position: absolute;
+ bottom: 0;
+ background: rgba(10, 50, 10,0.1);
+ color: #f1f1f1;
+ transition: .5s ease;
+ opacity:0;
+ width:75%;
+ color: yellow;
+ font-size: 20px;
+ text-align: center;
+ border-radius: 5px 5px 5px 5px;
+ color: yellow;
+}
+.crown:hover .the{
+  opacity:1;
+}
+.lucifer{
+  position: relative;
+  width: 20%;
+  padding-left: 40%;
+}
+.lucifer img{
+  box-shadow: 4px 4px 4px blue;
+  border-radius: 6px 6px 6px 6px;
+}
+.lucif{
+  position: absolute;
+ bottom: 0;
+ background: rgba(10, 50, 10,0.1);
+ color: #f1f1f1;
+ transition: .5s ease;
+ opacity:0;
+ width: 75%;
+ color: yellow;
+ font-size: 20px;
+ text-align: center;
+ border-radius: 5px 5px 5px 5px;
+}
+.lucifer:hover .lucif{
+  opacity: 1;
+}
+.ozak{
+  position: relative;
+  width: 20%;
+  padding-left: 30%;
+}
+.ozak img{
+  box-shadow: 4px 4px 4px blue;
+  border-radius: 6px 6px 6px 6px;
+}
+.oz{
+  position: absolute;
+ bottom: 0;
+ background: rgba(10, 50, 10,0.1);
+ color: #f1f1f1;
+ transition: .5s ease;
+ width: 75%;
+ opacity:0;
+ color: yellow;
+ font-size: 20px;
+ text-align: center;
+ border-radius: 5px 5px 5px 5px;
+}
+.ozak:hover .oz{
+  opacity: 1;
+}
+.mirror{
+  position: relative;
+  width: 20%;
+}
+.mirror img{
+  box-shadow: 4px 4px 4px blue;
+  border-radius: 6px 6px 6px 6px;
+  margin-left: 50%;
+}
+.mir{
+  position: absolute;
+  top:0;
+ bottom: 0;
+ left: 0;
+ background: rgba(10, 50, 10,0.1);
+ color: #f1f1f1;
+ transition: .5s ease;
+ opacity:0;
+ color: yellow;
+ width: 75%;
+ margin-left: 50%;
+ font-size: 20px;
+ text-align: center;
+ border-radius: 5px 5px 5px 5px;
+}
+.mirror:hover .mir{
+  opacity: 1;
+}
+.planet{
+  position: relative;
+  width: 20%;
+}
+.planet img{
+  box-shadow: 4px 4px 4px blue;
+  border-radius: 6px 6px 6px 6px;
+  margin-left: 95%;
+}
+.our{
+  position: absolute;
+ bottom: 0;
+ background: rgba(10, 50, 10,0.1);
+ color: #f1f1f1;
+ transition: .5s ease;
+ opacity:0;
+ color: yellow;
+ width: 75%;
+ margin-left: 95%;
+ font-size: 20px;
+ text-align: center;
+ border-radius: 5px 5px 5px 5px;
+}
+.planet:hover .our{
+  opacity: 1;
+}
+.sabrina{
+  position: relative;
+  width: 20%;
+}
+.sabrina img{
+  box-shadow: 4px 4px 4px blue;
+  border-radius: 6px 6px 6px 6px;
+  margin-left: 125%;
+}
+.sab{
+  position: absolute;
+ bottom: 0;
+ background: rgba(10, 50, 10,0.1);
+ color: #f1f1f1;
+ transition: .5s ease;
+ opacity:0;
+ width: 75%;
+ margin-left: 125%;
+ color: yellow;
+ font-size: 20px;
+ text-align: center;
+ border-radius: 5px 5px 5px 5px;
+}
+.sabrina:hover .sab{
+  opacity:1;
+}
+.trek{
+  position: relative;
+  width: 20%;
+  padding-left: 30%;
+}
+.trek img{
+  box-shadow: 4px 4px 4px blue;
+  border-radius: 6px 6px 6px 6px;
+}
+.star{
+  position: absolute;
+ bottom: 0;
+ background: rgba(10, 50, 10,0.1);
+ color: #f1f1f1;
+ transition: .10s ease;
+ opacity:0;
+ width:75%;
+ color: yellow;
+ font-size: 20px;
+ text-align: center;
+ border-radius: 5px 5px 5px 5px;
+}
+.trek:hover .star{
+  opacity: 1;
+}
+.dating{
+  position: relative;
+  width: 20%;
+  padding-left: 10%;
+}
+.dating img{
+  box-shadow: 4px 4px 4px blue;
+  border-radius: 6px 6px 6px 6px;
+}
+.dat{
+  position: absolute;
+ bottom: 0;
+ background: rgba(10, 50, 10,0.1);
+ color: #f1f1f1;
+ transition: .5s ease;
+ opacity:0;
+ width:75%;
+ color: red;
+ font-size: 20px;
+ text-align: center;
+ border-radius: 5px 5px 5px 5px;
+}
+.dating:hover .dat{
+  opacity: 1;
+}
+.dolls{
+  position: relative;
+  width: 20%;
+  padding-left: 10%;
+}
+.dolls img{
+  box-shadow: 4px 4px 4px blue;
+  border-radius: 6px 6px 6px 6px;
+}
+.doll{
+  position: absolute;
+ bottom: 0;
+ background: rgba(10, 50, 10,0.1);
+ color: #f1f1f1;
+ transition: .5s ease;
+ opacity:0;
+ width:75%;
+ color: yellow;
+ font-size: 20px;
+ text-align: center;
+ border-radius: 5px 5px 5px 5px;
+}
+.dolls:hover .doll{
+  opacity: 1;
+}
+.protector{
+  position: relative;
+  width: 20%;
+  padding-left: 10%;
+}
+.protector img{
+  box-shadow: 4px 4px 4px blue;
+  border-radius: 6px 6px 6px 6px;
+}
+.prot{
+  position: absolute;
+ bottom: 0;
+ background: rgba(10, 50, 10,0.1);
+ color: #f1f1f1;
+ transition: .5s ease;
+ opacity:0
+ width:75%;
+ color: white;
+ font-size: 20px;
+ text-align: center;
+ border-radius: 5px 5px 5px 5px;
+}
+.protector:hover .prot{
+  opacity: 1;
+}
+.detective{
+  position: relative;
+  width: 20%;
+  padding-left: 10%;
+}
+.detective img{
+  box-shadow: 4px 4px 4px blue;
+  border-radius: 6px 6px 6px 6px;
+}
+.true{
+  position: absolute;
+ bottom: 0;
+ background: rgba(10, 50, 10,0.1);
+ color: #f1f1f1;
+ transition: .5s ease;
+ opacity:0;
+ width: 75%;
+ color: yellow;
+ font-size: 20px;
+ text-align: center;
+ border-radius: 5px 5px 5px 5px;
+}
+.detective:hover .true{
+  opacity: 1;
+}
+.you{
+  position: relative;
+  width: 20%;
+  padding-left:6%;
+}
+.you img{
+  box-shadow: 4px 4px 4px blue;
+  border-radius: 6px 6px 6px 6px;
+}
+.y{
+  position: absolute;
+ bottom: 0;
+ background: rgba(10, 50, 10,0.1);
+ color: #f1f1f1;
+ transition: .5s ease;
+ opacity:0;
+ width:75%;
+ color: yellow;
+ font-size: 20px;
+ text-align: center;
+ border-radius: 5px 5px 5px 5px;
+}
+.you:hover .y{
+  opacity: 1;
+}
+.strange{
+  position: relative;
+  width: 20%;
+  padding-left: 20%;
+}
+.strange img{
+  box-shadow: 4px 4px 4px blue;
+  border-radius: 6px 6px 6px 6px;
+}
+.str{
+  position: absolute;
+ bottom: 0;
+ background: rgba(10, 50, 10,0.1);
+ color: #f1f1f1;
+ transition: .5s ease;
+ opacity:0;
+ width:75%;
+ color: yellow;
+ font-size: 20px;
+ text-align: center;
+ border-radius: 5px 5px 5px 5px;
+}
+.strange:hover .str{
+  opacity: 1;
+}
+.row{
+  padding: 20px;
+  margin-top: 20px;
+}
+.movie1{
+  display: none;
+  text-align: center;
+}
+.movie1 p{
+  background-color:rgba(100, 0, 50,0.3);
+  border-radius: 9%;
+  word-wrap: break-word;
+  box-sizing: content-box;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Abril Fatface', cursive;
+}
+.movie2{
+  display: none;
+  text-align: center;
+}
+.movie2 p{
+  background-color:rgba(100, 0, 50,0.3);
+  border-radius: 9%;
+  word-wrap: break-word;
+  box-sizing: content-box;
+  padding: 5px;
+  color: white;
+  font-size: 1.3em;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+.movie3{
+  display: none;
+  text-align: center;
+}
+.movie3 p{
+  background-color:rgba(100, 0, 50,0.3);
+  border-radius: 9%;
+  word-wrap: break-word;
+  box-sizing: content-box;
+  padding: 5px;
+  color: white;
+  font-size: 1.3em;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+.movie4{
+  display: none;
+  text-align: center;
+}
+.movie4 p{
+  background-color:rgba(100, 0, 50,0.3);
+  border-radius: 9%;
+  word-wrap: break-word;
+  box-sizing: content-box;
+  padding: 5px;
+  font-size: 1.3em;
+  width:100%;
+  color: white;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
 }
