@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .site-footer {
     color: white;
     background-color: #002856;
@@ -66,7 +66,25 @@ li {
     float: left;
     padding:20px;
   }
-  ul {
+  ul {=======
+249
+h1{
+250
+  text-align: center;
+251
+  font-family: 'Cinzel', serif;
+252
+  background-color:rgba(100, 100, 50, 0.5);
+253
+  background-repeat: no-repeat;
+254
+  color: green;
+255
+}
+256
+>>>>>>> 3a9e3a0d53beaf3975ec31b4b9dd3b53d8df2083
+257
+
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -100,7 +118,43 @@ li {
     margin-left:10px;
     margin-top:10px;
     margin-bottom:10px;
-    padding-right:10px;
+    padding-right:10px;=======
+249
+h1{
+250
+  text-align: center;
+251
+  font-family: 'Cinzel', serif;
+252
+  background-color:rgba(100, 100, 50, 0.5);
+253
+  background-repeat: no-repeat;
+254
+  color: green;
+255
+}
+256
+>>>>>>> 3a9e3a0d53beaf3975ec31b4b9dd3b53d8df2083
+257
+=======
+249
+h1{
+250
+  text-align: center;
+251
+  font-family: 'Cinzel', serif;
+252
+  background-color:rgba(100, 100, 50, 0.5);
+253
+  background-repeat: no-repeat;
+254
+  color: green;
+255
+}
+256
+>>>>>>> 3a9e3a0d53beaf3975ec31b4b9dd3b53d8df2083
+257
+
 }
 .sticky{
     padding-top:15px;
@@ -167,6 +221,24 @@ h1{
   .hide6{
     display: none;
   }
+=======
+249
+h1{
+250
+  text-align: center;
+251
+  font-family: 'Cinzel', serif;
+252
+  background-color:rgba(100, 100, 50, 0.5);
+253
+  background-repeat: no-repeat;
+254
+  color: green;
+255
+}
+256
+>>>>>>> 3a9e3a0d53beaf3975ec31b4b9dd3b53d8df2083
+257
 
   .glass{
     padding-top: 20%;
@@ -245,12 +317,3 @@ h1{
   .dash img:hover{
     opacity: 1;
   }
-=======
-h1{
-  text-align: center;
-  font-family: 'Cinzel', serif;
-  background-color:rgba(100, 100, 50, 0.5);
-  background-repeat: no-repeat;
-  color: green;
-}
->>>>>>> 3a9e3a0d53beaf3975ec31b4b9dd3b53d8df2083
